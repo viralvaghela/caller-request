@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Form 04</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="col-md-12">
+                        <div class="contact-wrap w-100 p-lg-5 p-4">
+                            <h3 class="mb-4">Send us a message</h3>
+                            <div id="form-message-warning" class="mb-4"></div>
+                            <div id="form-message-success" class="mb-4">
+                                Your message was sent, thank you!
+                            </div>
+                            <form method="POST" id="contactForm" action="/" name="contactForm" class="contactForm">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" required
+                                                placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="contact_number" required
+                                                id="contact_number" placeholder="Your Contact Number with Conuty Code">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="sort_message" class="form-control" id="sort_message"
+                                                required cols="30" rows="6" placeholder="You Short Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="submit" value="Send Message" class="btn btn-primary">
+                                            <div class="submitting"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+</body>
+
+</html>
