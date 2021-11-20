@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 var bodyParser = require('body-parser')
-
+var port = process.env.PORT || 3000;
 const { Webhook } = require('discord-webhook-node');
 const hook = new Webhook("https://discord.com/api/webhooks/911670334921527356/ivd-iK_Ra-EuD3ydd-nTO3aaNN_tdsX6xTGRcO6gXK5oLZsuJU5ixpkRM6sYxX0s98ak");
 
@@ -36,4 +36,4 @@ app.post('/', (req, res) => {
     res.send("Message send")
     res.sendFile(path.join(__dirname, 'index.html'));
 });
-app.listen(3000, () => { console.log('Server started at port 3000'); });
+app.listen(port, () => { console.log('Server started at port : '+port); });
