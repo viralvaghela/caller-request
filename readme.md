@@ -3,10 +3,14 @@ If you dont want to share your number then share link of this form(for example o
 
 
 Clone it 
-``` git clone https://github.com/viralvaghela/caller-request ```
+```bash
+git clone https://github.com/viralvaghela/caller-request 
+```
 
 Move to Project Dir
-``` cd caller-request ```
+```bash
+cd caller-request 
+```
 
 Now 
 
