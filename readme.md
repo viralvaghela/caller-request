@@ -1,7 +1,16 @@
 ## Caller Request
 If you dont want to share your number then share link of this form(for example on Resume) and you will get message on your discord server.
 
-1) Goto discord and create personal server
+
+Clone it 
+``` git clone https://github.com/viralvaghela/caller-request ```
+
+Move to Project Dir
+``` cd caller-request ```
+
+Now 
+
+1) Goto discord and create your server
 
 2) Get webhook url and paste it 
 
@@ -11,4 +20,8 @@ const hook = new Webhook("https://discord.com/api/webhooks/911670334921527356/iv
 ```
 
 3)Done!
+
+4) You can use heroku free server for hosting.
+
+
 
